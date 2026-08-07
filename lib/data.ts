@@ -1,6 +1,6 @@
 import { IProject } from '@/types';
 
-export const SITE_URL = 'https://pawan-i.tech';
+export const SITE_URL = 'https://www.pawan-i.tech';
 
 export const GENERAL_INFO = {
   siteUrl: SITE_URL,
