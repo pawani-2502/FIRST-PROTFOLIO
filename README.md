@@ -46,11 +46,9 @@ pnpm install
 pnpm dev
 ```
 
-## Attribution
+## Author
 
-Design & built by [Tajmirul Islam](https://tajmirul.site) — [portfolio-2.0](https://github.com/Tajmirul/portfolio-2.0) (MIT License).
-
-Revised and customized by **Pawani Sharma**.
+**Pawani Sharma** — [pawani-2502](https://github.com/pawani-2502)
 
 ## Links
 

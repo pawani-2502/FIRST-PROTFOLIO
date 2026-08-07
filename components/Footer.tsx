@@ -12,27 +12,17 @@ const Footer = () => {
                     {GENERAL_INFO.email}
                 </a>
 
-                <div className="space-y-2">
-                    <p className="text-muted-foreground">
-                        Portfolio content by{' '}
-                        <a
-                            href="https://github.com/pawani-2502"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="hover:text-white hover:underline"
-                        >
-                            Pawani Sharma
-                        </a>
-                    </p>
+                <p className="text-muted-foreground">
+                    © {new Date().getFullYear()}{' '}
                     <a
-                        href="https://github.com/Tajmirul/portfolio-2.0"
+                        href="https://github.com/pawani-2502"
                         target="_blank"
                         rel="noreferrer"
-                        className="leading-none text-muted-foreground hover:underline hover:text-white text-sm"
+                        className="hover:text-white hover:underline"
                     >
-                        Design &amp; built by Tajmirul Islam · Revised by Pawani Sharma
+                        Pawani Sharma
                     </a>
-                </div>
+                </p>
             </div>
         </footer>
     );

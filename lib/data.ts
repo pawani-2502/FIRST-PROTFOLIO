@@ -68,9 +68,9 @@ export const PROJECTS: IProject[] = [
     thumbnail: '/projects/thumbnail/smart-resume-shortlister.jpg',
     longThumbnail: '/projects/long/smart-resume-shortlister.jpg',
     images: [
-      '/projects/images/smart-resume-shortlister-1.png',
-      '/projects/images/smart-resume-shortlister-1.png',
-      '/projects/images/smart-resume-shortlister-1.png',
+      '/projects/images/smart-resume-architecture.png',
+      '/projects/images/smart-resume-workflow.png',
+      '/projects/images/smart-resume-pipeline.png',
     ],
   },
   {
@@ -85,9 +85,9 @@ export const PROJECTS: IProject[] = [
     thumbnail: '/projects/thumbnail/yojna-connect.jpg',
     longThumbnail: '/projects/long/yojna-connect.jpg',
     images: [
-      '/projects/images/yojna-connect-1.png',
-      '/projects/images/yojna-connect-2.png',
-      '/projects/images/yojna-connect-1.png',
+      '/projects/images/yojna-home.png',
+      '/projects/images/yojna-about.png',
+      '/projects/images/yojna-architecture.png',
     ],
   },
   {
@@ -102,9 +102,9 @@ export const PROJECTS: IProject[] = [
     thumbnail: '/projects/thumbnail/keyforge-ai.jpg',
     longThumbnail: '/projects/long/keyforge-ai.jpg',
     images: [
-      '/projects/images/keyforge-ai-1.png',
-      '/projects/images/keyforge-ai-2.png',
-      '/projects/images/keyforge-ai-1.png',
+      '/projects/images/keyforge-home.png',
+      '/projects/images/keyforge-leaderboard.png',
+      '/projects/images/keyforge-architecture.png',
     ],
   },
   {
@@ -119,9 +119,9 @@ export const PROJECTS: IProject[] = [
     thumbnail: '/projects/thumbnail/laychess-a.jpg',
     longThumbnail: '/projects/long/laychess-a.jpg',
     images: [
-      '/projects/images/laychess-a-1.png',
-      '/projects/images/laychess-a-1.png',
-      '/projects/images/laychess-a-1.png',
+      '/projects/images/laychess-home.png',
+      '/projects/images/laychess-about.png',
+      '/projects/images/laychess-architecture.png',
     ],
   },
   {
