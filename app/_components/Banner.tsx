@@ -62,6 +62,14 @@ const Banner = () => {
                     >
                         Let&apos;s Talk
                     </Button>
+                    <Button
+                        as="link"
+                        href="#resume"
+                        variant="secondary"
+                        className="mt-4 banner-button slide-up-and-fade"
+                    >
+                        View Resume
+                    </Button>
 
                     <div className="flex items-center gap-2 mt-3">
                         <span className="size-3 rounded-full bg-primary"></span>

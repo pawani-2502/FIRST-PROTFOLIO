@@ -11,6 +11,7 @@ import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
 import StickyEmail from './_components/StickyEmail';
+import { SITE_URL } from '@/lib/data';
 
 const antonFont = Anton({
     weight: '400',
@@ -27,9 +28,30 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL(SITE_URL),
     title: 'Portfolio - Pawani Sharma',
     description:
         'Personal portfolio of Pawani Sharma — Full-stack developer, Microsoft Azure certified, B.Tech CS @ SRM University.',
+    openGraph: {
+        title: 'Pawani Sharma | Portfolio',
+        description:
+            'Full-stack developer, Microsoft Azure certified, B.Tech CS @ SRM University.',
+        url: SITE_URL,
+        siteName: 'Pawani Sharma',
+        images: [{ url: '/profile.png', width: 512, height: 512, alt: 'Pawani Sharma' }],
+        locale: 'en_IN',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Pawani Sharma | Portfolio',
+        description:
+            'Full-stack developer, Microsoft Azure certified, B.Tech CS @ SRM University.',
+        images: ['/profile.png'],
+    },
+    alternates: {
+        canonical: SITE_URL,
+    },
 };
 
 export default function RootLayout({
