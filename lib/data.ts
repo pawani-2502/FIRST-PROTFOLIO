@@ -1,6 +1,9 @@
 import { IProject } from '@/types';
 
+export const SITE_URL = 'https://pawan-i.tech';
+
 export const GENERAL_INFO = {
+  siteUrl: SITE_URL,
   email: 'pawanisharma16450@gmail.com',
   emailSubject: "Let's collaborate on a project",
   emailBody: 'Hi Pawani, I am reaching out to you because...',
